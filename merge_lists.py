@@ -40,6 +40,15 @@ def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> List[
                 head2 = head2.next
             else:
                 head2 = None
+        
+    # Now must connect the nodes in list to each other
+    i = 1
+    for node in answer:
+        if node.next:
+            node.next = answer[i]
+            i += 1
+        else:
+            node.next = None
             
     return answer[0]
 
