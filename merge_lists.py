@@ -56,7 +56,7 @@ list1 = [ListNode(0), ListNode(2), ListNode(4)]
 list1[0].next = list1[1]
 list1[1].next = list1[2]
 
-list2 = [ListNode(1), ListNode(3), ListNode(5)]
+list2 = [ListNode(1), ListNode(3), ListNode(4), ListNode(5)]
 list2[0].next = list2[1]
 list2[1].next = list2[2]
 
