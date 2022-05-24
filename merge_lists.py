@@ -59,5 +59,6 @@ list1[1].next = list1[2]
 list2 = [ListNode(1), ListNode(3), ListNode(4), ListNode(5)]
 list2[0].next = list2[1]
 list2[1].next = list2[2]
+list2[2].next = list2[3]
 
 print(mergeTwoLists(list1, list2))
